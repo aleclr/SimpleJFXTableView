@@ -1,1 +1,1 @@
-java -jar --module-path "D:\Alec\JavaFX\javafx-sdk-17.0.6\lib" --add-modules javafx.controls,javafx.fxml "organizador.jar"
+java -jar --module-path "D:\Alec\JavaFX\javafx-sdk-17.0.6\lib" --add-modules javafx.controls,javafx.fxml "Organizador.jar"
