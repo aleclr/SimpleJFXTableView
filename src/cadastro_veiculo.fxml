@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CadastroVeiculoController">
+  <children>
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a138fd6" height="727.0" layoutX="-6.0" layoutY="-7.0" stroke="TRANSPARENT" strokeType="INSIDE" width="447.0" />
+            <Label layoutX="110.0" layoutY="168.0" text="Tipo" textAlignment="CENTER" textFill="#f2f2f2">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="110.0" layoutY="258.0" text="Cor" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="-5.0" layoutY="34.0" prefHeight="32.0" prefWidth="435.0" text="ORGANIZE SUA VIAGEM" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="349.0" text="Marca" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="campoTipo" layoutX="108.0" layoutY="201.0" prefHeight="30.0" prefWidth="210.0" />
+            <Button fx:id="btnConfirmarVeiculo" layoutX="88.0" layoutY="617.0" mnemonicParsing="false" onAction="#confirmarVeiculo" prefHeight="30.0" prefWidth="121.0" text="CONFIRMAR" textFill="#01ae04" />
+            <Label layoutX="110.0" layoutY="446.0" text="Placa" textAlignment="CENTER" textFill="#fcfcfc">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="campoCor" layoutX="108.0" layoutY="289.0" prefHeight="30.0" prefWidth="210.0" promptText="Qual a cor do veículo?" />
+            <TextField fx:id="campoMarca" layoutX="108.0" layoutY="383.0" prefHeight="30.0" prefWidth="210.0" promptText="Qual a marca do veículo?" />
+            <TableView fx:id="tabelaVeiculos" layoutX="539.0" layoutY="48.0" prefHeight="626.0" prefWidth="686.0">
+              <columns>
+                <TableColumn fx:id="tipo" prefWidth="174.0" text="Tipo" />
+                  <TableColumn fx:id="cor" prefWidth="172.0" text="Cor" />
+                  <TableColumn fx:id="marca" prefWidth="187.0" text="Marca" />
+                <TableColumn fx:id="placa" prefWidth="152.0" text="Placa" />
+              </columns>
+            </TableView>
+            <Button fx:id="btnVoltar1" layoutX="224.0" layoutY="617.0" mnemonicParsing="false" onAction="#voltarVeiculo" prefHeight="30.0" prefWidth="121.0" text="VOLTAR" textFill="#ad0212" />
+            <Label alignment="CENTER" layoutX="-5.0" layoutY="76.0" prefHeight="32.0" prefWidth="435.0" text="CADASTRE O VEÍCULO" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="campoPlaca" layoutX="108.0" layoutY="476.0" prefHeight="30.0" prefWidth="210.0" promptText="Qual a placa do veículo?" />
+         </children>
+      </AnchorPane>
+  </children>
+</VBox>
