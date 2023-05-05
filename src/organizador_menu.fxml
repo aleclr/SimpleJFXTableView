@@ -36,6 +36,9 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
@@ -43,7 +46,28 @@
   <children>
       <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0">
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4a138fd6" height="727.0" layoutX="-6.0" layoutY="-7.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1286.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="727.0" layoutX="-6.0" layoutY="-7.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1286.0">
+               <fill>
+                  <LinearGradient endX="0.990521327014218" endY="0.966824644549763" startX="0.5545023696682464" startY="0.4028436018957346">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.343770295381546" green="0.10355750471353531" blue="0.6578947305679321" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.006711409395973154">
+                           <color>
+                              <Color red="0.343770295381546" green="0.10355750471353531" blue="0.6578947305679321" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.6578947305679321" green="0.1248781681060791" blue="0.5868258476257324" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill></Rectangle>
             <Label alignment="CENTER" layoutX="-5.0" layoutY="104.0" prefHeight="32.0" prefWidth="1286.0" text="ORGANIZE SUA VIAGEM" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="37.0" />
