@@ -9,6 +9,13 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
+            "projectName": "SimpleJFXTableView_f0d4162d"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
             "projectName": "testefx_1ce2494"
         },
         {
@@ -16,7 +23,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "vmArgs": "--module-path \"C:/Users/aleclr/Downloads/javafx_and_scenebuilder/javafx17_LTS/lib\" --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"D:/Alec/JavaFX/javafx-sdk-17.0.6/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
