@@ -1,0 +1,18 @@
+.button {
+    /* #581aa8 - PURPLE */
+    -fx-background-color: white;
+    box-shadow: 5px 5px #581aa8;
+    -fx-effect: dropshadow(three-pass-box, rgb(41, 7, 87), 5, 0.0, 0, 10);
+    -fx-padding: 10 15 13 12;
+}
+
+.button:hover {
+    -fx-background-color: rgb(218, 218, 218);
+}
+
+.button:pressed {
+    -fx-background-color: #a3a3a3;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(10, 10, 10, 10), 5, 0.0, 0, 0);
+    -fx-padding: 5 15 13 12;
+}

@@ -42,9 +42,9 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OrganizadorMenuController">
+<VBox prefHeight="720.0" prefWidth="1280.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OrganizadorMenuController">
   <children>
-      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0">
+      <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" stylesheets="@style.css">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" height="727.0" layoutX="-6.0" layoutY="-7.0" stroke="TRANSPARENT" strokeType="INSIDE" width="1286.0">
                <fill>
@@ -57,7 +57,7 @@
                         </Stop>
                         <Stop offset="0.006711409395973154">
                            <color>
-                              <Color red="0.343770295381546" green="0.10355750471353531" blue="0.6578947305679321" />
+                              <Color red="0.3450980484485626" green="0.10196078568696976" blue="0.658823549747467" />
                            </color>
                         </Stop>
                         <Stop offset="1.0">
@@ -73,16 +73,16 @@
                   <Font name="System Bold" size="37.0" />
                </font>
             </Label>
-            <Button fx:id="btnCadastrarPessoa" layoutX="195.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarPessoa" prefHeight="94.0" prefWidth="241.0" text="CADASTRAR PESSOA" textAlignment="CENTER" textFill="#02ad05">
+            <Button fx:id="btnCadastrarPessoa" layoutX="195.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarPessoa" prefHeight="94.0" prefWidth="241.0" stylesheets="@style.css" text="CADASTRAR PESSOA" textAlignment="CENTER" textFill="#02ad05">
                <font>
                   <Font size="21.0" />
                </font></Button>
-            <Button fx:id="btnCadastrarLugar" layoutX="520.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarLugar" prefHeight="94.0" prefWidth="241.0" text="CADASTRAR LUGAR" textFill="#01ae04">
+            <Button fx:id="btnCadastrarLugar" layoutX="520.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarLugar" prefHeight="94.0" prefWidth="241.0" stylesheets="@style.css" text="CADASTRAR LUGAR" textFill="#01ae04">
                <font>
                   <Font size="21.0" />
                </font>
             </Button>
-            <Button fx:id="btnCadastrarVeiculo" layoutX="864.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarVeiculo" prefHeight="94.0" prefWidth="241.0" text="CADASTRAR VEICULO" textFill="#01ae04">
+            <Button fx:id="btnCadastrarVeiculo" layoutX="864.0" layoutY="322.0" mnemonicParsing="false" onAction="#switchToCadastrarVeiculo" prefHeight="94.0" prefWidth="241.0" stylesheets="@style.css" text="CADASTRAR VEICULO" textFill="#01ae04">
                <font>
                   <Font size="21.0" />
                </font>

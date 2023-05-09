@@ -18,6 +18,10 @@ public class App extends Application {
         Parent root = fxmlLoader.load();
         Scene tela = new Scene(root);
 
+        // String css = this.getClass().getResource("style.css").toExternalForm();
+        // tela.getStylesheets().add(css);
+        tela.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+
         stage.setTitle("Organize Sua Viagem");
         stage.setScene(tela);
         stage.show();
