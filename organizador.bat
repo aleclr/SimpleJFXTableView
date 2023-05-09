@@ -1,1 +1,1 @@
-java -jar --module-path "C:\Users\Aluno\Desktop\javafx_and_scenebuilder\javafx17_LTS\lib" --add-modules javafx.controls,javafx.fxml "testefx.jar"
+java -jar --module-path "D:\Alec\JavaFX\javafx-sdk-17.0.6\lib" --add-modules javafx.controls,javafx.fxml "Organizador.jar"
