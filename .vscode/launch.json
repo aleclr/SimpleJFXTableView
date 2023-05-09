@@ -9,13 +9,6 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "SimpleJFXTableView_f0d4162d"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "Main",
             "projectName": "testefx_1ce2494"
         },
         {
